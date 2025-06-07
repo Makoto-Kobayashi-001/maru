@@ -8,7 +8,7 @@ st.title('サプーアプリ')
 st.caption('これはサプーの動画用のテストアプリです')
 
 #画像
-st.text(os.path.abspath('./data/Sample01.jpg'))
-image = Image.open(os.path.abspath('./data/Sample01.jpg'))
+st.text(os.path.abspath('./supu_app/data/Sample01.jpg'))
+image = Image.open(os.path.abspath('./supu_app/data/Sample01.jpg'))
 st.image(image, width=200)
 
