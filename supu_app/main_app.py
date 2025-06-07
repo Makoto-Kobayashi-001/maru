@@ -7,6 +7,6 @@ st.title('サプーアプリ')
 st.caption('これはサプーの動画用のテストアプリです')
 
 #画像
-image = Image.open('./data/Sample01.jpg')
+image = Image.open('Sample01.jpg')
 st.image(image, width=200)
 
